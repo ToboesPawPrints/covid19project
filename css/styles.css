@@ -16,6 +16,17 @@ h2 {
     margin-left: 2rem;
 }
 
+h4 {
+    font-family: 'Nunito', sans-serif;
+    color: #354B5E;
+    margin-top: 0.3rem;
+
+}
+
+.header-adjust {
+    margin-top: 7rem;
+}
+
 .menu-styles {
     margin-right: 2rem;
     margin-top: 2rem;
