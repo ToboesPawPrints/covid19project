@@ -32,7 +32,7 @@ function initMap(){
 
   addMarker({
     coords:{lat: 38.00333, lng: -122.07258},
-    content:'<h1>Lynn MA</h1>'
+
   }); //(2)Alta Vista Cremation & Funeral Service 
 
   addMarker({
