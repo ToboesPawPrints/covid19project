@@ -7,6 +7,7 @@
 h1 {
     font-family: 'Nunito', sans-serif;
     color: #D74B4B;
+    font-size: 5rem;
     margin-left: 2rem;
 }
 
@@ -49,11 +50,22 @@ h4 {
     color: white;
 }
 
-#banner-img {
-    width: 100%;
-    height: auto;
+
+.wrapper {
+    height: 75vh;
+  }
+  
+  .parallax-img {
+    background-image: url('https://i.ibb.co/Q6gVSQS/whiteflowerscut.jpg');
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+.jumbotron {
+    border-radius: 0;
 }
+
+
