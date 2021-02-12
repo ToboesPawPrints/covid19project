@@ -24,10 +24,11 @@ h4 {
 
 }
 
+/*Adds margin to top of items inside of the header */
 .header-adjust {
     margin-top: 7rem;
 }
-
+/*Adds styling to the menu items in the header*/
 .menu-styles {
     margin-right: 2rem;
     margin-top: 2rem;
@@ -35,7 +36,8 @@ h4 {
     font-size: 1.5rem;
 }
 
-.map-placeholder {
+/*Add styles to maps*/
+.map-style {
     text-align: center;
     margin-top: 3rem;
 }
@@ -50,7 +52,7 @@ h4 {
     color: white;
 }
 
-
+/* Begins the CSS for the parallax, vh is used to make it relative to viewport */
 .wrapper {
     height: 75vh;
   }
@@ -64,6 +66,7 @@ h4 {
     background-size: cover;
   }
 
+/* Removes the rounded borders on the jumbotron */
 .jumbotron {
     border-radius: 0;
 }
