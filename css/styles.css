@@ -71,4 +71,7 @@ h4 {
     border-radius: 0;
 }
 
-
+.text-bounding {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
