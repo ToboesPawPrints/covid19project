@@ -22,15 +22,17 @@
 
 <body onload="initMap();">
 
+    <!--Jumbotron and header class-->
     <header class="jumbotron">
         <div class="container-fluid">
             <div class="row">
+                <!--Header and subheader-->
                 <div class="col-xs-6">
-                        <h1>CoVare</h1>
-                        <h2 class="d-none d-lg-block">A guide for finding after-life services for COVID19 patients</h2>
+                    <h1>CoVare</h1>
+                    <h2 class="d-none d-lg-block">A guide for finding after-life services for COVID19 patients</h2>
                 </div>
+                <!--Beginning of the navbar items.  ml-auto pushes everything to the left.-->
                 <div class="col-xs-6 ml-auto">
-                    
                     <nav class="navbar navbar-expand-xl navbar-dark">
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -39,18 +41,18 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-item nav-link menu-styles" href="index.html">Home</a>
+                                <a class="nav-item nav-link menu-styles" href="index.html">Home </a>
                                 <a class="nav-item nav-link active menu-styles" href="search.html">Search<span
-                                    class="sr-only">(current)</span></a>
-                                <a class="nav-item nav-link menu-styles" href="#">Resources</a>
+                                        class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link menu-styles" href="#resources">Resources</a>
                             </div>
-                        </div>    
+                        </div>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-
+    <!--Begin content beneath the header-->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -60,16 +62,15 @@
         <div class="row">
             <div class="col">
                 <div class="d-flex align-items-center m-auto">
-                    <h4 class="mx-auto text-center">Subheader text to be filled out later</h4>
+                    <h4 class="mx-auto text-center">Search for funeral homes and other resources in your area</h4>
                 </div>
             </div>
         </div>
     </div>
-
-
+    <!--Begin map-->
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col map-search">
                 <div class="mx-auto align-items-center map-styles" id="map">
 
                     <script>
@@ -102,22 +103,22 @@
 
                             addMarker({
                                 coords: { lat: 37.97814, lng: -122.04578 },
-                                content: '<h1>Lynn MA</h1> <div>example</div>'
+                                content: '<h4>Lynn MA</h4> <div>example</div>'
                             }); //(1)Diablo Valley Cremation & Funeral Services
 
                             addMarker({
                                 coords: { lat: 38.00333, lng: -122.07258 },
-                                content: '<h1>Lynn MA</h1>'
+                                content: '<h4>Lynn MA</h4>'
                             }); //(2)Alta Vista Cremation & Funeral Service 
 
                             addMarker({
                                 coords: { lat: 37.96710, lng: -121.99737 },
-                                content: '<h1>Lynn MA</h1>'
+                                content: '<h4>Lynn MA</h4>'
                             }); //(3)Ouimet Bros. Concord Funeral Chapel
 
                             addMarker({
                                 coords: { lat: 37.89571, lng: -122.07803 },
-                                content: '<h1>Lynn MA</h1>'
+                                content: '<h4>Lynn MA</h4>'
                             }); //(4) Hull's Walnut Creek Chapel
 
                             addMarker({
@@ -160,26 +161,42 @@
                                 }
                             }
                         }
-
-
                     </script>
-
                     <script
                         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoc8RwFzArqZcxMsRah0iZaT9pYBIY5Es"></script>
                 </div>
             </div>
         </div>
     </div>
-
-    <body>
-
-
     </body>
-
-
-
     <footer>
-
+        <div class="container-fluid">
+            <div class="row row-content">
+                <!--Header and subheader-->
+                <div class="col-xs-6">
+                    <h1>CoVare</h1>
+                    <h2 class="d-none d-lg-block">A guide for finding after-life services for COVID19 patients</h2>
+                </div>
+                <!--Beginning of the navbar items.  ml-auto pushes everything to the left.-->
+                <div class="col-xs-6 ml-auto">
+                    <nav class="navbar navbar-expand-xl navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link menu-styles" href="index.html">Home </a>
+                                <a class="nav-item nav-link active menu-styles" href="search.html">Search<span
+                                        class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link menu-styles" href="#resources">Resources</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
@@ -188,9 +205,5 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-
-
 </body>
-
 </html>

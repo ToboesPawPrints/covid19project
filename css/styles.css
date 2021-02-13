@@ -88,6 +88,7 @@ h4 {
     background: #DCDDD8;
     border-top: none;
     padding: 35px;
+    margin-bottom: 75px;
 }
 
 .tab-bg {
@@ -122,13 +123,42 @@ h4 {
     border-bottom: none;
 }
 
+/* Styles for buttons on the tabs */
+
 .tab-btn {
     font-family: 'Nunito', sans-serif;
     color: white;
     background: #354B5E;
 }
 
-.btn:hover {
+.tab-btn:hover {
     color: #ffffff;
     background: #D74B4B;
+}
+
+a {
+    color: #f8f9fa;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #f8f9fa;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.map-search {
+    margin: 80px;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+footer {
+    background: #354B5E;
 }

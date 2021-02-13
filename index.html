@@ -4,7 +4,6 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -71,12 +70,11 @@
             </div>
         </div>
     </div>
-
     <!--Beginning of Tab Cards-->
-
     <div class="container-fluid">
         <div class="row row-content">
             <div class="col">
+                <!--ID here is what the anchor in the nav is attached to-->
                 <h1 class="mx-auto text-center header-adjust" id="resources">Resources</h1>
                 <div class="tab-styles header-adjust">
                     <ul class="nav nav-tabs">
@@ -89,17 +87,17 @@
                                 3</a></li>
                     </ul>
                     <div class="tab-content">
-
                         <div role="tabpanel" class="tab-pane fade show active" id="r1">
                             <h3>CDC</h3>
                             <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies 
                                 mollis dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam, integer 
                                 placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. </p>
                                 <div class="text-center">
-                            <button type="button" class="btn btn-md tab-btn">Learn More</button>
+                            <button type="button" class="btn btn-md tab-btn">
+                                <a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/funeral-guidance.html" target="_blank">
+                                Learn More</a></button>
                             </div>
                         </div>
-
                         <div role="tabpanel" class="tab-pane fade show" id="r2">
                             <h3>Resource 2</h3>
                             <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies 
@@ -109,7 +107,6 @@
                             <button type="button" class="btn btn-md tab-btn">Learn More</button>
                             </div>
                         </div>
-
                         <div role="tabpanel" class="tab-pane fade show" id="r3">
                             <h3>Resource 3</h3>
                             <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies 
@@ -124,27 +121,38 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
     <footer>
-
+        <div class="container-fluid">
+            <div class="row row-content">
+                <!--Header and subheader-->
+                <div class="col-xs-6">
+                    <h1>CoVare</h1>
+                    <h2 class="d-none d-lg-block">A guide for finding after-life services for COVID19 patients</h2>
+                </div>
+                <!--Beginning of the navbar items.  ml-auto pushes everything to the left.-->
+                <div class="col-xs-6 ml-auto">
+                    <nav class="navbar navbar-expand-xl navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link active menu-styles" href="index.html">Home <span
+                                        class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link menu-styles" href="search.html">Search</a>
+                                <a class="nav-item nav-link menu-styles" href="#resources">Resources</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </footer>
-
-
-
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-
-
 </body>
-
 </html>
