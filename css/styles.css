@@ -18,6 +18,8 @@ h2 {
     margin-left: 2rem;
 }
 
+
+
 h4 {
     font-family: 'Nunito', sans-serif;
     color: #354B5E;
@@ -96,8 +98,6 @@ h4 {
     margin-left: 25%
 }
 
-
-
 .nav-tabs .nav-link {
     border-top: 1px solid rgb(180, 180, 180);
     border-right: 1px solid rgb(180, 180, 180);
@@ -113,12 +113,20 @@ h4 {
     border-bottom: none;
 }
 
-
-
-
 .nav-tabs .nav-link:hover {
     border-top: 1px solid rgb(180, 180, 180);
     border-right: 1px solid rgb(180, 180, 180);
     border-left: 1px solid rgb(180, 180, 180);
     border-bottom: none;
+}
+
+.tab-btn {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background: #354B5E;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background: #D74B4B;
 }
